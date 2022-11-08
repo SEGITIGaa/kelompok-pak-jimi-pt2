@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.logout button{
+    padding: 6px 30px;
+    border: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    border-radius: 10px;
+    background-color: #2A2C41;
+}
+.logout button a{
+    text-decoration: none;
+    color: #fdbf50;
+}
+.form-container{
+    background-color: #d6d6e7;
+    width: 40%;
+    height: 550px;
+    border-radius: 32px;
+    position: relative;
+    top: 70px;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 20%);
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form-container form input{
+    border: #ff724c 2px solid;
+    padding: 3%;
+    margin: 5px;
+    width: 85%;
+    border-radius: 8px;
+}
+.form-container form input::placeholder{
+    color: black;
+}
+.form-container form select#agama, select#gender, select#pendidikan {
+    border: #ff724c 2px solid;
+    padding: 3%;
+    margin: 5px;
+    width: 92%;
+    border-radius: 8px;
+}
+.form-container form select #select1,#select2{
+    border: #ff724c 2px solid;
+    padding: 3%;
+    display: inline-flex;
+}
+.form-container form select#select1{
+    width: 48%;
+    margin-left: 8px;
+}
+.form-container form select#select2{
+    width: 40%;
+    margin-right: -16px;
+}
+.form-container form button{
+    padding: 6px 30px;
+    border: none;
+    border-radius: 20px;
+    border-radius: 20px;
+    color: #fdbf50;
+    background-color: #2A2C41;
+}
+.form-container form button a{
+    text-decoration: none;
+    color: #fdbf50;
+}
+.form-container form button a:hover{
+    color: #2A2C41;
+}
+.form-container form button#submit{
+    padding: 5px 30px;
+    background: none;
+    border:  #2A2C41 2px solid;
+    color: #2A2C41;
+
+}
+.form-container form button#submit:hover{
+    background-color: #fdbf50;
+}
+.form-container form button:hover{
+    color: #2A2C41;
+    background-color: #fdbf50;
+    transition: all 0.5s;
+}
+.form-container form .btn{
+    display: flex;
+    border: none;
+    
+}

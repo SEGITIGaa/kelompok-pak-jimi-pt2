@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    margin-left: 70px;
+    margin-top: 10%;
+}
+.btn-back{
+    position: absolute;
+    right: 5%;
+    padding: 10px 22px;
+    border: none;
+    background-color: #2A2C41;
+    border-radius: 50px;
+}
+.btn-back a{
+    text-decoration: none;
+    color: #fdbf50;
+}
+ form table{
+    background-color: #f4f4f8;  
+    border: #2A2C41 2px solid;
+    border-radius: 6px;
+    position: relative;
+    top: 100px;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+}
+form table tr th{
+    padding: 5px;
+    color: #000;
+    background-color: #fdbf50;
+}
+
+form table tr td button{
+    background-color: #2A2C41;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 5px;
+    border: none;
+    color: #fff;
+}
+form table tr td button#edit{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 5px;
+    border: none;
+}
+form table tr td button#edit a{
+    text-decoration: none;
+    color: #fff;
+}
